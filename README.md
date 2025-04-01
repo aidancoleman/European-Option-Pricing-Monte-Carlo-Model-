@@ -1,0 +1,3 @@
+Parallel and serial code implementations of a Monte Carlo algorithm to price European Call and Put options. The code has options to pass command line arguments allowing the use of Sobol sequences as a quasi-random number generator or defaulting to the use of the Mersenne twister. Also, command line arguments can be passed to use antithetic variates as a variance reduction technique. In all cases the Polar algorithm is used to generate standard normal random variates z1 and z2 to use in our Geometric Brownian motion representation of the underlying asset price at expiry.
+
+The makefile contains the requisite flags for compilation of the source code in the parallel and serial case.
